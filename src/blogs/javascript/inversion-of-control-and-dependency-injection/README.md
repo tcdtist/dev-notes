@@ -1,14 +1,14 @@
 # Inversion of Control (IoC) and Dependency Injection (DI) in JavaScript
 
 ![Inversion of Control (IoC) and Dependency Injection (DI) in JavaScript](https://mirbozorgi.com/wp-content/uploads/2022/07/Asset-1-min.png)
-[Source image: mirbozorgi](https://mirbozorgi.com/dependency_injection_vs_inversion_of_control/)
+Source image: [mirbozorgi](https://mirbozorgi.com/dependency_injection_vs_inversion_of_control/)
 
 Inversion of Control (IoC) and Dependency Injection (DI) are fundamental design patterns in software architecture that help manage dependencies, thus promoting loose coupling and greater modularity.
 
 ## Inversion of Control (IoC)
 
 ![Inversion of Control (IoC)](https://miro.medium.com/v2/resize:fit:1400/1*Si6nbljDclaUzQp28cA09w.png)
-[Source image: medium](https://medium.com/@aaron.chu/whats-inversion-of-control-ioc-fb09e2ad7b63)
+Source image: [medium](https://medium.com/@aaron.chu/whats-inversion-of-control-ioc-fb09e2ad7b63)
 
 ### Explanation
 
@@ -46,7 +46,7 @@ Here, the `Car` class does not create an instance of `Engine` itself but rather,
 ## Dependency Inversion Principle (DIP)
 
 ![Dependency Inversion Principle (DIP)](https://media.licdn.com/dms/image/C5612AQFFFjbboRXvhw/article-cover_image-shrink_600_2000/0/1647405323448?e=2147483647&v=beta&t=RAPpylzq5sBfKXy4kwiPZlI2DUzJktln3xQQmEQW6CI)
-[Source image: linkedin](https://www.linkedin.com/pulse/dependency-inversion-principledip-mamata-raote-she-her-)
+Source image: [linkedin](https://www.linkedin.com/pulse/dependency-inversion-principledip-mamata-raote-she-her-)
 
 ### Explanation
 
@@ -82,7 +82,7 @@ notificationService.notify({ email: "user@example.com" }, "Welcome!");
 ## Dependency Injection (DI)
 
 ![Dependency Injection (DI)](https://stackify.com/wp-content/uploads/2018/06/Design-Patterns-Explained-%E2%80%93-Dependency-Injection-with-Code-Examples.png)
-[Source image: bizflycloud](https://bizflycloud.vn/tin-tuc/dependency-injection-la-gi-2018120111011137.htm)
+Source image: [bizflycloud](https://bizflycloud.vn/tin-tuc/dependency-injection-la-gi-2018120111011137.htm)
 
 ### Explanation
 

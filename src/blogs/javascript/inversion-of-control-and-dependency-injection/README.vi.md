@@ -1,12 +1,14 @@
 # Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) trong JavaScript
 
-![Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) trong JavaScript](https://miro.medium.com/v2/resize:fit:602/0*eQXK-dJH0TxtSEV3.png)
+![Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) trong JavaScript](https://mirbozorgi.com/wp-content/uploads/2022/07/Asset-1-min.png)
+[Nguồn hình: mirbozorgi](https://mirbozorgi.com/dependency_injection_vs_inversion_of_control/)
 
 Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) là các mẫu thiết kế cơ bản trong kiến trúc phần mềm giúp quản lý các phụ thuộc, từ đó thúc đẩy sự lỏng lẻo về mối liên kết và tăng cường tính mô-đun.
 
 ## Đảo Ngược Sự Kiểm Soát (IoC)
 
 ![Đảo Ngược Sự Kiểm Soát (IoC)](https://miro.medium.com/v2/resize:fit:1400/1*Si6nbljDclaUzQp28cA09w.png)
+[Nguồn hình: medium](https://medium.com/@aaron.chu/whats-inversion-of-control-ioc-fb09e2ad7b63)
 
 ### Giải thích
 
@@ -48,6 +50,7 @@ car.start();
 ## Nguyên Tắc Đảo Ngược Phụ Thuộc (DIP)
 
 ![Nguyên Tắc Đảo Ngược Phụ Thuộc (DIP)](https://media.licdn.com/dms/image/C5612AQFFFjbboRXvhw/article-cover_image-shrink_600_2000/0/1647405323448?e=2147483647&v=beta&t=RAPpylzq5sBfKXy4kwiPZlI2DUzJktln3xQQmEQW6CI)
+[Nguồn hình: linkedin](https://www.linkedin.com/pulse/dependency-inversion-principledip-mamata-raote-she-her-)
 
 ### Giải thích
 
@@ -83,6 +86,7 @@ notificationService.notify({ email: "user@example.com" }, "Welcome!");
 ## Tiêm Phụ Thuộc (DI)
 
 ![Tiêm Phụ Thuộc (DI)](https://stackify.com/wp-content/uploads/2018/06/Design-Patterns-Explained-%E2%80%93-Dependency-Injection-with-Code-Examples-881x440-1.png)
+[Nguồn hình: bizflycloud](https://bizflycloud.vn/tin-tuc/dependency-injection-la-gi-2018120111011137.htm)
 
 ### Giải thích
 
@@ -124,8 +128,8 @@ Bằng cách áp dụng các nguyên tắc này, các nhà phát triển có th�
 
 ## Tài liệu đọc thêm:
 
-- [Inversion of Control (IoC) and Dependency Injection (DI)](https://medium.com/@kadriozcan/inversion-of-control-and-dependency-injection-6e6f628c6a06)
-- [Serries DEPENDENCY INJECTION VÀ INVERSION OF CONTROL](https://toidicodedao.com/2015/11/03/dependency-injection-va-inversion-of-control-phan-1-dinh-nghia/)
+- [Inversion of Control (IoC) and Dependency Injection (DI)](https://medium.com/@kadriozcan/inversion-of-control-and-dependency-injection-6e6f628c6a06) - kadriozcan
+- [Serries DEPENDENCY INJECTION VÀ INVERSION OF CONTROL](https://toidicodedao.com/2015/11/03/dependency-injection-va-inversion-of-control-phan-1-dinh-nghia/) - toidicodedao
 
 ---
 

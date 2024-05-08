@@ -1,8 +1,12 @@
 # Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) trong JavaScript
 
+![Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) trong JavaScript](https://miro.medium.com/v2/resize:fit:602/0*eQXK-dJH0TxtSEV3.png)
+
 Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) là các mẫu thiết kế cơ bản trong kiến trúc phần mềm giúp quản lý các phụ thuộc, từ đó thúc đẩy sự lỏng lẻo về mối liên kết và tăng cường tính mô-đun.
 
 ## Đảo Ngược Sự Kiểm Soát (IoC)
+
+![Đảo Ngược Sự Kiểm Soát (IoC)](https://miro.medium.com/v2/resize:fit:1400/1*Si6nbljDclaUzQp28cA09w.png)
 
 ### Giải thích
 
@@ -14,7 +18,7 @@ Bây giờ, hãy áp dụng IoC vào kịch bản của chúng ta. Bạn quyết
 
 Trong phát triển phần mềm, IoC cho phép chúng ta chuyển sự kiểm soát từ code của chúng ta sang một khung làm việc bên ngoài. Bằng cách áp dụng IoC, chúng ta có thể tập trung vào việc định nghĩa "cái gì" trong khi để khung làm việc xử lý "làm thế nào".
 
-### Ví dụ JavaScript
+### Ví dụ
 
 ```jsx
 // Cách tiếp cận truyền thống
@@ -43,11 +47,13 @@ car.start();
 
 ## Nguyên Tắc Đảo Ngược Phụ Thuộc (DIP)
 
+![Nguyên Tắc Đảo Ngược Phụ Thuộc (DIP)](https://media.licdn.com/dms/image/C5612AQFFFjbboRXvhw/article-cover_image-shrink_600_2000/0/1647405323448?e=2147483647&v=beta&t=RAPpylzq5sBfKXy4kwiPZlI2DUzJktln3xQQmEQW6CI)
+
 ### Giải thích
 
 Nguyên tắc Đảo Ngược Phụ Thuộc là một chiến lược để giảm sự phụ thuộc giữa các mô-đun phần mềm. Nguyên tắc này nói rằng các mô-đun cấp cao không nên phụ thuộc vào các mô-đun cấp thấp. Thay vào đó, cả hai nên phụ thuộc vào trừu tượng.
 
-### Ví dụ JavaScript
+### Ví dụ
 
 ```jsx
 // Mô-đun cấp thấp
@@ -76,11 +82,13 @@ notificationService.notify({ email: "user@example.com" }, "Welcome!");
 
 ## Tiêm Phụ Thuộc (DI)
 
+![Tiêm Phụ Thuộc (DI)](https://stackify.com/wp-content/uploads/2018/06/Design-Patterns-Explained-%E2%80%93-Dependency-Injection-with-Code-Examples-881x440-1.png)
+
 ### Giải thích
 
 Tiêm Phụ Thuộc là một mẫu thiết kế được sử dụng để thực hiện IoC, cho phép tạo ra các đối tượng phụ thuộc bên ngoài lớp và cung cấp những đối tượng này cho lớp thông qua các cách khác nhau như tiêm qua hàm tạo, phương thức hoặc thuộc tính.
 
-### Ví dụ JavaScript
+### Ví dụ
 
 ```jsx
 // Tiêm qua hàm tạo
@@ -113,6 +121,11 @@ Những thực tiễn này đặc biệt có lợi trong các ứng dụng phứ
 2. **Tận dụng các container IoC**: Các thư viện như InversifyJS có thể giúp quản lý IoC trong các ứng dụng lớn hơn.
 
 Bằng cách áp dụng các nguyên tắc này, các nhà phát triển có thể giảm đáng kể mức độ phụ thuộc giữa các thành phần và tăng cường khả năng chống chịu với các thay đổi của hệ thống, dẫn đến một cơ sở mã nguồn mạnh mẽ và dễ bảo trì hơn.
+
+## Tài liệu đọc thêm:
+
+- [Inversion of Control (IoC) and Dependency Injection (DI)](https://medium.com/@kadriozcan/inversion-of-control-and-dependency-injection-6e6f628c6a06)
+- [Serries DEPENDENCY INJECTION VÀ INVERSION OF CONTROL](https://toidicodedao.com/2015/11/03/dependency-injection-va-inversion-of-control-phan-1-dinh-nghia/)
 
 ---
 

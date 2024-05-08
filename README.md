@@ -58,4 +58,4 @@ We hope you find the resources in this repository helpful for your programming j
 
 ---
 
-[_Written by Chi Thanh Dang (tist)_](https://github.com/tcdtist) _and assisted by AI_
+Written by [_Chi Thanh Dang_](https://github.com/tcdtist) with assisted by AI.

@@ -58,4 +58,4 @@ Chúng tôi hy vọng bạn thấy các tài nguyên trong repository này hữu
 
 ---
 
-[_Viết bởi Chi Thanh Dang (tist)_](https://github.com/tcdtist) _và sự trợ giúp của AI_
+Viết bởi [_Chi Thanh Dang_](https://github.com/tcdtist) với sự trợ giúp của AI.

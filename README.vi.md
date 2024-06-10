@@ -1,61 +1,79 @@
-# Khái Niệm Lập Trình
+# dev-notes: Kho Lưu Trữ Kiến Thức Lập Trình Cá Nhân 🧠
 
-Chào mừng bạn đến với repository `ProgrammingConcepts`, nguồn tài nguyên được dành riêng để giải thích các khái niệm lập trình cơ bản và nâng cao một cách rõ ràng và dễ tiếp cận. Repository này phục vụ như một trung tâm cho người học ở mọi cấp độ để khám phá các nguyên tắc lập trình, mẫu thiết kế và các phương pháp tốt nhất quan trọng cho việc phát triển phần mềm vững chắc, dễ bảo trì và hiệu quả.
+Chào mừng bạn đến với "dev-notes"! Đây là kho lưu trữ cá nhân của tôi, chứa đựng kiến thức, hiểu biết và kinh nghiệm về lập trình. Nó là nguồn tài liệu tham khảo để tôi học hỏi những điều mới, ôn lại kiến thức và cập nhật những xu hướng mới nhất trong thế giới phát triển phần mềm không ngừng thay đổi.
 
-## Cấu Trúc Repository
+## Cấu Trúc Thư Mục Dự Án
 
-Repository này được cấu trúc để cung cấp sự dễ dàng trong việc điều hướng và truy cập vào các chủ đề lập trình khác nhau trên nhiều ngôn ngữ lập trình và khuynh hướng. Dưới đây là cách tổ chức nội dung:
+```
+dev-notes/
+├── fundamentals/
+│   ├── design-principles/
+│   │   ├── dependency-injection-and-inversion-of-control.md (bài viết hiện có của bạn)
+│   │   └── ... (các bài viết khác về nguyên lý thiết kế)
+│   ├── data-structures-and-algorithms/
+│   └── ...
+├── frontend/
+│   ├── javascript/
+│   │   ├── react/
+│   │   │   ├── react-19-co-gi-moi.md (bài viết của chúng ta về React 19!)
+│   │   │   └── ...
+│   │   ├── ...
+│   ├── ...
+├── backend/
+│   ├── nodejs/
+│   ├── python/
+│   └── ...
+├── devops/
+│   ├── docker/
+│   ├── kubernetes/
+│   └── ...
+├── system-design/
+│   ├── scalability/
+│   ├── high-availability/
+│   └── ...
+└── projects/
+    ├── project1/
+    ├── project2/
+    └── ...
+```
 
-- `src/`: Thư mục nguồn chứa tất cả các hướng dẫn và ví dụ chi tiết.
-  - `blogs/`: Chứa các bài thảo luận sâu và hướng dẫn về các khái niệm lập trình cụ thể.
-    - `javascript/`: Các bài viết và hướng dẫn tập trung vào lập trình JavaScript.
-      - `inversion-of-control-and-dependency-injection`: Hướng dẫn toàn diện về việc hiểu và thực hiện IoC và DI trong JavaScript.
+## Giải Thích Chi Tiết Cấu Trúc Thư Mục
+
+- **fundamentals:** Thư mục này chứa các khái niệm cơ bản của lập trình, chẳng hạn như:
+  - **design-principles:** Các bài viết về các nguyên lý SOLID, DRY (Don't Repeat Yourself), KISS (Keep It Simple, Stupid), v.v.
+  - **data-structures-and-algorithms:** Ghi chú về mảng, danh sách liên kết, cây, đồ thị, thuật toán sắp xếp, tìm kiếm, v.v.
+- **frontend/backend/devops/system-design:** Các thư mục này chứa kiến thức cụ thể về từng lĩnh vực phát triển, được phân loại theo công nghệ hoặc framework.
+- **projects:** Một không gian dành riêng cho các ghi chú và bài học liên quan đến dự án cụ thể.
 
 ## Nội Dung Nổi Bật
 
-### Đảo Ngược Sự Kiểm Soát và Tiêm Phụ Thuộc trong JavaScript
-
-Việc hiểu các nguyên tắc của Đảo Ngược Sự Kiểm Soát (IoC) và Tiêm Phụ Thuộc (DI) là rất quan trọng đối với các nhà phát triển JavaScript muốn xây dựng các ứng dụng có thể mở rộng và dễ bảo trì. Các khái niệm này giúp quản lý phụ thuộc một cách hiệu quả, dẫn đến code sạch hơn, có tính mô-đun cao hơn.
-
-- **[Hướng dẫn Đảo Ngược Sự Kiểm Soát và Tiêm Phụ Thuộc](src/blogs/javascript/inversion-of-control-and-dependency-injection/README.vi.md)**: Khám phá chi tiết về IoC và DI, kèm theo các ví dụ thực tiễn và giải thích cách thực hiện các mẫu thiết kế này trong dự án JavaScript của bạn.
+- **Inversion of Control và Dependency Injection trong JavaScript:** (tóm tắt bài viết hiện có của tôi)
+- **React 19: Có Gì Mới?:** (tóm tắt bài viết của chúng ta về React 19)
 
 ## Bắt Đầu
 
-Để bắt đầu khám phá các khái niệm được tài liệu hóa trong repository này:
-
-1. Clone repository:
+1. **Clone repository:**
 
    ```bash
-   git clone https://github.com/tcdtist/public-programming-concepts.git
+   git clone https://github.com/tcdtist/public-dev-notes.git
    ```
 
-2. Điều hướng đến chủ đề quan tâm:
-   ```bash
-   cd public-programming-concepts
-   ```
-3. Đọc qua các tệp `README.md` chi tiết trong từng thư mục để hiểu rõ các khái niệm lập trình cụ thể.
+2. **Khám phá!** Hãy tìm hiểu các thư mục và khám phá các bài viết về chủ đề mà bạn quan tâm.
 
-## Đóng Góp
+## Giấy Phép
 
-Mọi đóng góp nhằm mục đích nâng cao nội dung hoặc thêm chủ đề mới luôn được hoan nghênh! Nếu bạn có kiến thức hoặc cải tiến về các khái niệm lập trình, xin vui lòng fork repository này, thực hiện các thay đổi của bạn và gửi yêu cầu kéo.
-
-- Đối với những thay đổi lớn, xin vui lòng mở một [vấn đề](https://github.com/tcdtist/public-programming-concepts/issues) trước để thảo luận về những gì bạn muốn thay đổi.
-- Xin vui lòng cập nhật các bài kiểm tra nếu thích hợp.
-
-## Bản Quyền
-
-Phân phối dưới Giấy phép [MIT](/LICENSE). Xem tệp `LICENSE` để biết thêm thông tin.
+Được phân phối theo Giấy phép MIT. Xem `LICENSE` để biết thêm thông tin.
 
 ## Liên Hệ
 
-Tên tôi - [@tcdtist](https://twitter.com/tcdtist) - Chi Thanh Dang
+Chi Thanh Dang - [@tcdtist](https://github.com/tcdtist)
 
-Đường Link Dự Án: [https://github.com/tcdtist/public-programming-concepts](https://github.com/tcdtist/public-programming-concepts)
+Project Link: [https://github.com/tcdtist/public-dev-notes](https://github.com/tcdtist/public-dev-notes)
+
+## Cùng Học & Cùng Tiến Bộ! 🌱
+
+Hy vọng bạn sẽ thấy các tài nguyên trong kho lưu trữ này hữu ích cho hành trình lập trình của mình, cho dù bạn mới bắt đầu hay đang muốn đào sâu kiến thức về các nguyên tắc kiến trúc phần mềm phức tạp.
 
 ---
 
-Chúng tôi hy vọng bạn thấy các tài nguyên trong repository này hữu ích cho hành trình lập trình của mình, dù bạn mới bắt đầu hay đang tìm hiểu sâu hơn về các nguyên tắc kiến trúc phần mềm phức tạp.
-
----
-
-Viết bởi [_Chi Thanh Dang_](https://github.com/tcdtist) với sự trợ giúp của AI.
+Được viết bởi [_Chi Thanh Dang_](https://github.com/tcdtist) với sự hỗ trợ của AI.

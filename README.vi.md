@@ -76,4 +76,4 @@ Hy vọng bạn sẽ thấy các tài nguyên trong kho lưu trữ này hữu í
 
 ---
 
-Được viết bởi [_Chi Thanh Dang_](https://github.com/tcdtist) với sự hỗ trợ của AI.
+Được viết bởi [_Chi Thanh Dang_](https://github.com/tcdtist) với sự hỗ trợ của AI..
